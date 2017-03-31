@@ -22,11 +22,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="java-code-examples" />
+        <module name="plugin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="java-code-examples" target="1.5" />
+      <module name="plugin" target="1.5" />
+      <module name="release" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
