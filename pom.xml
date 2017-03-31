@@ -5,7 +5,7 @@
     <groupId>com.christmo</groupId>
     <artifactId>java-code-examples</artifactId>
     <packaging>pom</packaging>
-    <version>1.2</version>
+    <version>1.3-SNAPSHOT</version>
     <modules>
         <module>release</module>
     </modules>
@@ -20,7 +20,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/christmo/java-code-examples.git</developerConnection>
-      <tag>r1.2</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <build>
